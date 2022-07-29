@@ -33,7 +33,7 @@
     <td><img src="https://hermes.digitalinnovation.one/courses/badge/bc2c4fe0-3538-4ca0-9e11-3bc1a9a70e83.png" alt="Imagem do bootcamp Praticando Orientação a Objetos com Java" width="50"></td>
     <td><b>Curso</b></td>
     <td><b>Praticando Orientação a Objetos com Java</b></td>
-    <td></td>
+    <td>✅</td>
   </tr>
   <tr>
     <td><img src="https://hermes.digitalinnovation.one/code_challenge/badge/f3fc3d80-7c5b-47fc-8ae5-a303c722b914.png" alt="Imagem do bootcamp Desafios em Java - Spring Experience" width="50"></td>
@@ -45,7 +45,7 @@
     <td><img src="https://hermes.digitalinnovation.one/lab_projects/badges/aa75185f-0152-4d02-ba1f-930f4d60850e.png" alt="Imagem do bootcamp Abstraindo um Bootcamp Usando Orientação a Objetos em Java" width="50"></td>
     <td><b>Desafio de Projeto</b></td>
     <td><b>Abstraindo um Bootcamp Usando Orientação a Objetos em Java</b></td>
-    <td></td>
+    <td>✅</td>
   </tr>
 </table>
 
