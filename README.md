@@ -14,7 +14,7 @@
     <td><img src="https://hermes.digitalinnovation.one/tracks/22cdb398-5ca2-4420-ae76-7a7ec5078ea8.png" alt="Imagem do bootcamp Spring Framework Experience | Aula Inaugural" width="50"></td>
     <td><b>Mentoria (Live)</b></td>
     <td><b>Spring Framework Experience | Aula Inaugural</b></td>
-    <td></td>
+    <td>✅</td>
   </tr>
 </table>
 
