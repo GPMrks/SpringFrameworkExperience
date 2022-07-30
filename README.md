@@ -64,7 +64,7 @@
     <td><img src="https://hermes.digitalinnovation.one/courses/badge/742981af-c62e-4de5-971e-1a73b632b242.png" alt="Imagem do bootcamp Gerenciamento de Dependências e Build em Java com Maven" width="50"></td>
     <td><b>Curso</b></td>
     <td><b>Gerenciamento de Dependências e Build em Java com Maven</b></td>
-    <td></td>
+    <td>✅</td>
   </tr>
   <tr>
     <td><img src="https://hermes.digitalinnovation.one/courses/badge/1dcc883a-37fa-42a9-a2a1-1cf012ffb34e.png" alt="Imagem do bootcamp Introdução ao Framework Spring Boot" width="50"></td>
