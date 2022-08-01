@@ -17,7 +17,7 @@ public class ProdutoController {
     private ProdutoService produtoService;
 
     @GetMapping
-    public ResponseEntity<List<Produto>> buscarTodos(){
+    public ResponseEntity<List<Produto>> todos(){
         List<Produto> produtos = produtoService.findAll();
         return ResponseEntity.ok().body(produtos);
     }
@@ -43,7 +43,7 @@ public class ProdutoController {
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deletaProduto(@PathVariable Long id){
         produtoService.deleteById(id);
-        return ResponseEntity.status(HttpStatus.OK).build();
+        return ResponseEntity.ok().build();
     }
 
 }
