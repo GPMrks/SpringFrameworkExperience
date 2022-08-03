@@ -94,7 +94,7 @@
     <td><img src="https://hermes.digitalinnovation.one/courses/badge/e3131cb9-bb94-4a30-bc47-a41429a7c11d.png" alt="Imagem do bootcamp JPA com Hibernate" width="50"></td>
     <td><b>Curso</b></td>
     <td><b>JPA com Hibernate</b></td>
-    <td></td>
+    <td>✅</td>
   </tr>
   <tr>
     <td><img src="https://hermes.digitalinnovation.one/lab_projects/badges/09f9eb3d-604e-4ab3-ad00-5e64855dc4d5.png" alt="Imagem do bootcamp Conhecendo Spring Data JPA na prática com Java" width="50"></td>
