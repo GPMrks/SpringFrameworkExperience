@@ -82,7 +82,7 @@
     <td><img src="https://hermes.digitalinnovation.one/courses/badge/30a89fdb-61a4-4ccd-986f-1c79ec5ded53.png" alt="Imagem do bootcamp Domine o Estilo Arquitetural REST com o Spring Web" width="50"></td>
     <td><b>Curso</b></td>
     <td><b>Domine o Estilo Arquitetural REST com o Spring Web</b></td>
-    <td></td>
+    <td>✅</td>
   </tr>
   <tr>
     <td><img src="https://hermes.digitalinnovation.one/courses/badge/98e52508-d41b-455f-9294-2c124cc21510.png" alt="Imagem do bootcamp Trabalhando com Banco de Dados utilizando JDBC e JPA" width="50"></td>
