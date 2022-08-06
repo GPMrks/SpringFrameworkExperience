@@ -100,7 +100,7 @@
     <td><img src="https://hermes.digitalinnovation.one/lab_projects/badges/09f9eb3d-604e-4ab3-ad00-5e64855dc4d5.png" alt="Imagem do bootcamp Conhecendo Spring Data JPA na prática com Java" width="50"></td>
     <td><b>Curso</b></td>
     <td><b>Conhecendo Spring Data JPA na prática com Java</b></td>
-    <td></td>
+    <td>✅</td>
   </tr>
   <tr>
     <td><img src="https://hermes.digitalinnovation.one/lab_projects/badges/596aa9d8-34c0-4369-bb27-d2f00347f45e.png" alt="Imagem do bootcamp Explorando Padrões de Projeto na Prática com Java" width="50"></td>
