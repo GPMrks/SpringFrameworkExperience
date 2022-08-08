@@ -5,6 +5,7 @@ import me.dio.academia.digital.entity.form.AvaliacaoFisicaForm;
 import me.dio.academia.digital.entity.form.AvaliacaoFisicaUpdateForm;
 import me.dio.academia.digital.service.impl.AvaliacaoFisicaServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -33,7 +34,7 @@ public class AvaliacaoFisicaController {
     @PostMapping
     public ResponseEntity<AvaliacaoFisica> save(@Valid @RequestBody AvaliacaoFisicaForm avaliacaoFisicaForm){
         AvaliacaoFisica avaliacaoFisica = avaliacaoFisicaService.save(avaliacaoFisicaForm);
-        return ResponseEntity.ok().body(avaliacaoFisica);
+        return ResponseEntity.status(HttpStatus.CREATED).body(avaliacaoFisica);
     }
 
     @PutMapping("/{id}")

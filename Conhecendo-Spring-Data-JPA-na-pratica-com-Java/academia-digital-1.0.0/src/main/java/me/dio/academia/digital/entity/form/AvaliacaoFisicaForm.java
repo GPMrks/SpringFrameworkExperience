@@ -3,6 +3,7 @@ package me.dio.academia.digital.entity.form;
 import me.dio.academia.digital.entity.Aluno;
 
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Positive;
 
 public class AvaliacaoFisicaForm {
@@ -10,11 +11,11 @@ public class AvaliacaoFisicaForm {
   private Long alunoId;
 
   @Positive(message = "Peso inválido.")
-  @NotBlank(message = "Preencha os campos corretamente!")
+  @NotNull(message = "Preencha os campos corretamente!")
   private double peso;
 
   @Positive(message = "Altura inválida.")
-  @NotBlank(message = "Preencha os campos corretamente!")
+  @NotNull(message = "Preencha os campos corretamente!")
   private double altura;
 
   public AvaliacaoFisicaForm() {

@@ -7,6 +7,7 @@ import me.dio.academia.digital.entity.form.AlunoUpdateForm;
 import me.dio.academia.digital.entity.view.AvaliacoesFisicasDTO;
 import me.dio.academia.digital.service.impl.AlunoServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -48,7 +49,7 @@ public class AlunoController {
     @PostMapping
     public ResponseEntity<Aluno> save(@Valid @RequestBody AlunoForm alunoForm){
         Aluno aluno = alunoService.save(alunoForm);
-        return ResponseEntity.ok().body(aluno);
+        return ResponseEntity.status(HttpStatus.CREATED).body(aluno);
     }
 
     @PutMapping("/{id}")

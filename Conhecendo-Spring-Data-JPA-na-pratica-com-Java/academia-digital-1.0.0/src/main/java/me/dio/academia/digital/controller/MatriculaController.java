@@ -4,6 +4,7 @@ import me.dio.academia.digital.entity.Matricula;
 import me.dio.academia.digital.entity.form.MatriculaForm;
 import me.dio.academia.digital.service.impl.MatriculaServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -38,7 +39,7 @@ public class MatriculaController {
     @PostMapping
     public ResponseEntity<Matricula> create(@Valid @RequestBody MatriculaForm matriculaForm){
         Matricula matricula = matriculaService.save(matriculaForm);
-        return ResponseEntity.ok().body(matricula);
+        return ResponseEntity.status(HttpStatus.CREATED).body(matricula);
     }
 
 }
