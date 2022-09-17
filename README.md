@@ -118,7 +118,7 @@
     <td><img src="https://hermes.digitalinnovation.one/lab_projects/badges/357b5b98-49ef-4e05-a993-bdf2f4bca46a.png" alt="Imagem do bootcamp Criação de Pipes com Angular" width="50"></td>
     <td><b>Desafio de Projeto</b></td>
     <td><b>Realizando Deploy na Nuvem de um Conjunto de API's desenvolvida em Spring Boot</b></td>
-    <td></td>
+    <td>✅</td>
   </tr>
 </table>
 
